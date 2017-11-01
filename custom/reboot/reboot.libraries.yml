@@ -1,0 +1,18 @@
+global-styling:
+  version: VERSION
+  css:
+    css/global.css: {}
+
+* reboot/bootstrap
+bootstrap:
+  css:
+    base:
+      css/bootstrap.min.css: {}
+      css/bootstrap-theme.min.css: {}
+  js:
+    theme:
+      js/boostrap.min.js: {}
+
+libraries:
+  - reboot/bootstrap
+  - reboot/global
